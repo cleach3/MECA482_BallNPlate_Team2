@@ -44,7 +44,7 @@ The Simulink Model created ....
 
 ## 5. Coppelia Simulation
 
-The Coppelia Simulation which proves that our algorithms facilitate the designated system requirements
+The Coppelia Simulation which proves that our algorithms facilitate the designated system requirements...
 
 ## 6. Appendix 
 
