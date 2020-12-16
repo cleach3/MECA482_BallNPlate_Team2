@@ -53,6 +53,6 @@ A1:
 A2:
 
 ## 7. References
-[1]
+[1] Nise, Norman S. Control Systems Engineering. Hoboken, NJ: Wiley, 2015. 
 
 
