@@ -59,6 +59,12 @@ The equations above represent our block diagram respectively for one axis of the
 In the overall system, the same transfer function will be implemented for the second axis of the 2 degree of freedom ball balancer system. This is a workaround to create a MIMO system by combining multiple SISO systems. One of the diagrams will be for the X-axis, and the other will be for the Y-axis. Therefore the mathematical model for the entire system will be encompassed by both of these equations. 
 
 
+	The mathematics for our project can be described by the inherent mathematical equation relating to a PID controller. This equation is seen below. 
+INSERT PHOTO
+
+Where KP is the proportional gain, Kiis the integral gain, and K is the derivative gain. This specific system is replicated by a PD controller, meaning Ki is equal to zero. 
+
+
 ## 4. Simulink
 
 The Simulink Model created ....
