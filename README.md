@@ -41,7 +41,23 @@ The System Requirements of this project....
 
 ## 3. Mathematical Model
 
-The Mathematical Model of the system is defnined....
+Mathematical model:
+
+
+Insert Photos
+
+
+
+This is the block diagram corresponding to one axis of our 2 degrees of freedom ball balancer system. This specific diagram has two loops, the inner loop on the right represents the model of the servo Ps(s), and the ball balancer model. The outer loop on the left is representing the position controller S. The position controller is to be implemented in Simulink and the servo controls and ball balancer models are to be implemented into coppeliasim.
+
+Insert Equations
+
+
+
+The equations above represent our block diagram respectively for one axis of the 2 degree of freedom ball balancer. It follows the format of a standard second-order system therefore we can go ahead and solve for our proportional gain KP and derivative gain KD using our system parameters of percent overshoot, and settling time. For our system, we’re using a 10% overshoot, with a 4% settling time of 5 seconds, and a Steady-State error of  7.5mm.
+
+In the overall system, the same transfer function will be implemented for the second axis of the 2 degree of freedom ball balancer system. This is a workaround to create a MIMO system by combining multiple SISO systems. One of the diagrams will be for the X-axis, and the other will be for the Y-axis. Therefore the mathematical model for the entire system will be encompassed by both of these equations. 
+
 
 ## 4. Simulink
 
