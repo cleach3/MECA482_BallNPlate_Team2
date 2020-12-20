@@ -28,7 +28,12 @@ Ball N Plate Control System Design
 - [7. References](#7-References)
 
 ## 1. Introduction 
-The purpose of this project is to...
+The purpose of this project is to incorporate everything we have learned from this past semester 
+in order to create a real life example of a working control system.
+The system consists of a plate which can be tilted by two servo motors or electric motors
+in two different angular orientations together with a ball rolling around on top of the plate.
+The goal was to design a controls system that allows the user to put a ball anywhere on the plate and have the servo motors 
+position the ball in the center of the plate.
 
 ## 2. System Requirements
 
